@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url('https://images6.alphacoders.com/458/thumb-1920-458510.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenido {
+    color: #fff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.pregunta {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.respuesta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.respuesta label {
+    display: flex;
+    align-items: center;
+}
+.respuesta input[type="radio"] {
+    margin-right: 5px;
+}
+
+.respuesta label:hover {
+    cursor: pointer;
+    background-color: #383636;
+}
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+}
+.info{
+    text-align: center;
+    font-size: 0.8em;
+}
+.meme{
+    text-align: center;
+    font-size: 1.2em;
+}
+#enviar{
+    display: block;
+    margin: 0 auto;
+}
